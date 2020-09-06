@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "husky": "*",
+    "myass": "^2.0.0",
     "prettier": "*",
     "pretty-quick": "*"
   },
@@ -47,5 +48,7 @@
     "type": "git",
     "url": "https://github.com/pablopunk/what-version"
   },
-  "scripts": {}
+  "scripts": {
+    "test": "myass"
+  }
 }
