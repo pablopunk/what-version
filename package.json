@@ -1,7 +1,7 @@
 {
   "name": "what-version",
   "description": "List versions of popular projects or check the latest patch for a given version",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "pablopunk <yo@pablo.pink>",
   "bugs": {
     "url": "https://github.com/pablopunk/what-version/issues",
