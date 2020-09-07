@@ -30,7 +30,7 @@ whatVersion('node', 'v12')
 
 ## Website
 
-This tool is used to build [versions.pablo.pink](https://github.com/pablopunk/versions)
+This tool is used to build [versions.pablo.im](https://github.com/pablopunk/versions)
 
 ## License
 
@@ -40,4 +40,4 @@ MIT
 
 | ![me](https://gravatar.com/avatar/5535b0b3f1d6d434af2e05419cfe85da?size=100) |
 | ---------------------------------------------------------------------------- |
-| [pablopunk](https://pablo.pink)                                              |
+| [pablopunk](https://pablo.im)                                                |
