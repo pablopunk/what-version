@@ -2,13 +2,13 @@
   "name": "what-version",
   "description": "List versions of popular projects or check the latest patch for a given version",
   "version": "1.0.0",
-  "author": "pablopunk <me@pablo.im>",
+  "author": "pablopunk <me@pablopunk.com>",
   "bugs": {
     "url": "https://github.com/pablopunk/what-version/issues",
-    "email": "me@pablo.im"
+    "email": "me@pablopunk.com"
   },
   "contributors": [
-    "pablopunk <me@pablo.im>"
+    "pablopunk <me@pablopunk.com>"
   ],
   "dependencies": {
     "node-fetch": "^2.6.0"
