@@ -17,8 +17,8 @@ module.exports = async function node(search) {
   }
 
   return result
+    .filter((r) => r.name.startsWith(search == null ? '' : search))
     .map((r) => ({ ...r, date: new Date(r.date) }))
-    .filter((r) => r.name.startsWith(search))
     .sort((a, b) => b.date - a.date)
     .map((r) => r.name)
 }

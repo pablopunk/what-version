@@ -1,20 +1,21 @@
 {
   "name": "what-version",
   "description": "List versions of popular projects or check the latest patch for a given version",
-  "version": "1.0.0",
-  "author": "pablopunk <me@pablopunk.com>",
+  "version": "1.0.1",
+  "author": "pablopunk <pablo@pablopunk.com>",
   "bugs": {
     "url": "https://github.com/pablopunk/what-version/issues",
-    "email": "me@pablopunk.com"
+    "email": "pablo@pablopunk.com"
   },
   "contributors": [
-    "pablopunk <me@pablopunk.com>"
+    "pablopunk <pablo@pablopunk.com>"
   ],
   "dependencies": {
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "husky": "*",
+    "myass": "^2.0.0",
     "prettier": "*",
     "pretty-quick": "*"
   },
@@ -47,5 +48,7 @@
     "type": "git",
     "url": "https://github.com/pablopunk/what-version"
   },
-  "scripts": {}
+  "scripts": {
+    "test": "myass"
+  }
 }
