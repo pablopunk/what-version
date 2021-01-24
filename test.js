@@ -18,3 +18,10 @@ test('Returns empty array if search fails', async (t) => {
 
   t.is(results.length, 0)
 })
+
+test('Returns a version with an expected format', async (t) => {
+  const results = await m('node', 'v14')
+  const latest = results[0]
+
+  t.true(latest.startsWith('v14.'))
+})
